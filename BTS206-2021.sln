@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPF", "WPF", "{0F1FC8F2-3ED
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ders1_Ornek", "Ders1_Ornek\Ders1_Ornek.csproj", "{BCE1D662-322F-4EBB-AD86-7C5B0E808EED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ders2_HesapMakinesi", "Ders2_HesapMakinesi\Ders2_HesapMakinesi.csproj", "{A44A4DB0-D984-4E0B-A82D-2CA294FF4333}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,12 +21,17 @@ Global
 		{BCE1D662-322F-4EBB-AD86-7C5B0E808EED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCE1D662-322F-4EBB-AD86-7C5B0E808EED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCE1D662-322F-4EBB-AD86-7C5B0E808EED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A44A4DB0-D984-4E0B-A82D-2CA294FF4333}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A44A4DB0-D984-4E0B-A82D-2CA294FF4333}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A44A4DB0-D984-4E0B-A82D-2CA294FF4333}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A44A4DB0-D984-4E0B-A82D-2CA294FF4333}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BCE1D662-322F-4EBB-AD86-7C5B0E808EED} = {B04B8775-B1EA-4C53-8F72-5EAEF667E7D4}
+		{A44A4DB0-D984-4E0B-A82D-2CA294FF4333} = {B04B8775-B1EA-4C53-8F72-5EAEF667E7D4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EBEA5F54-6115-4315-9614-35C679F67B25}
