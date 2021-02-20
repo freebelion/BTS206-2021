@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9E16B44E-350F-4A55-8F04-DCCCFE2857F4}</ProjectGuid>
+    <ProjectGuid>{3B5E9D7B-3658-41CB-9AEA-920BBC923E02}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Ders4_MenuListesi</RootNamespace>
     <AssemblyName>Ders4_MenuListesi</AssemblyName>

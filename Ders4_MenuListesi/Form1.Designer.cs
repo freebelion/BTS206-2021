@@ -35,13 +35,11 @@ namespace Ders4_MenuListesi
             this.btnAcMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnKaydetMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.btnKalinMenuItem = new System.Windows.Forms.ToolStripButton();
-            this.btnItalikMenuItem = new System.Windows.Forms.ToolStripButton();
-            this.btnCizgiliMenuItem = new System.Windows.Forms.ToolStripButton();
-            this.btnKucultMenuItem = new System.Windows.Forms.ToolStripButton();
-            this.btnBuyutMenuItem = new System.Windows.Forms.ToolStripButton();
-            this.tbEditor = new System.Windows.Forms.RichTextBox();
+            this.btnKalinYazi = new System.Windows.Forms.ToolStripButton();
+            this.btnItalikYazi = new System.Windows.Forms.ToolStripButton();
+            this.btnCizgiliYazi = new System.Windows.Forms.ToolStripButton();
             this.trackBar1 = new System.Windows.Forms.TrackBar();
+            this.tbEditor = new System.Windows.Forms.RichTextBox();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
@@ -53,11 +51,9 @@ namespace Ders4_MenuListesi
             this.btnDosyaMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(9, 3, 0, 3);
-            this.menuStrip1.Size = new System.Drawing.Size(826, 25);
+            this.menuStrip1.Size = new System.Drawing.Size(825, 24);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
-            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
             // btnDosyaMenuItem
             // 
@@ -65,113 +61,97 @@ namespace Ders4_MenuListesi
             this.btnAcMenuItem,
             this.btnKaydetMenuItem});
             this.btnDosyaMenuItem.Name = "btnDosyaMenuItem";
-            this.btnDosyaMenuItem.Size = new System.Drawing.Size(51, 19);
+            this.btnDosyaMenuItem.Size = new System.Drawing.Size(51, 20);
             this.btnDosyaMenuItem.Text = "Dosya";
             this.btnDosyaMenuItem.Click += new System.EventHandler(this.btnDosyaMenuItem_Click);
             // 
             // btnAcMenuItem
             // 
             this.btnAcMenuItem.Name = "btnAcMenuItem";
-            this.btnAcMenuItem.Size = new System.Drawing.Size(110, 22);
+            this.btnAcMenuItem.Size = new System.Drawing.Size(180, 22);
             this.btnAcMenuItem.Text = "Aç";
             this.btnAcMenuItem.Click += new System.EventHandler(this.btnAcMenuItem_Click);
             // 
             // btnKaydetMenuItem
             // 
             this.btnKaydetMenuItem.Name = "btnKaydetMenuItem";
-            this.btnKaydetMenuItem.Size = new System.Drawing.Size(110, 22);
+            this.btnKaydetMenuItem.Size = new System.Drawing.Size(180, 22);
             this.btnKaydetMenuItem.Text = "Kaydet";
             this.btnKaydetMenuItem.Click += new System.EventHandler(this.btnKaydetMenuItem_Click);
             // 
             // toolStrip1
             // 
+            this.toolStrip1.BackColor = System.Drawing.Color.Pink;
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.btnKalinMenuItem,
-            this.btnItalikMenuItem,
-            this.btnCizgiliMenuItem,
-            this.btnKucultMenuItem,
-            this.btnBuyutMenuItem});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 25);
+            this.btnKalinYazi,
+            this.btnItalikYazi,
+            this.btnCizgiliYazi});
+            this.toolStrip1.Location = new System.Drawing.Point(0, 24);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 2, 0);
-            this.toolStrip1.Size = new System.Drawing.Size(826, 28);
+            this.toolStrip1.Size = new System.Drawing.Size(825, 28);
             this.toolStrip1.TabIndex = 2;
             this.toolStrip1.Text = "toolStrip1";
             // 
-            // btnKalinMenuItem
+            // btnKalinYazi
             // 
-            this.btnKalinMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.btnKalinMenuItem.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnKalinMenuItem.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnKalinMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("btnKalinMenuItem.Image")));
-            this.btnKalinMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.btnKalinMenuItem.Name = "btnKalinMenuItem";
-            this.btnKalinMenuItem.Size = new System.Drawing.Size(24, 25);
-            this.btnKalinMenuItem.Text = "K";
-            this.btnKalinMenuItem.Click += new System.EventHandler(this.btnKalinMenuItem_Click);
+            this.btnKalinYazi.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.btnKalinYazi.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnKalinYazi.Image = ((System.Drawing.Image)(resources.GetObject("btnKalinYazi.Image")));
+            this.btnKalinYazi.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnKalinYazi.Name = "btnKalinYazi";
+            this.btnKalinYazi.Size = new System.Drawing.Size(24, 25);
+            this.btnKalinYazi.Text = "K";
+            this.btnKalinYazi.Click += new System.EventHandler(this.btnKalinYazi_Click);
             // 
-            // btnItalikMenuItem
+            // btnItalikYazi
             // 
-            this.btnItalikMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.btnItalikMenuItem.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnItalikMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("btnItalikMenuItem.Image")));
-            this.btnItalikMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.btnItalikMenuItem.Name = "btnItalikMenuItem";
-            this.btnItalikMenuItem.Size = new System.Drawing.Size(23, 25);
-            this.btnItalikMenuItem.Text = "I";
-            this.btnItalikMenuItem.Click += new System.EventHandler(this.btnItalikMenuItem_Click);
+            this.btnItalikYazi.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.btnItalikYazi.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnItalikYazi.Image = ((System.Drawing.Image)(resources.GetObject("btnItalikYazi.Image")));
+            this.btnItalikYazi.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnItalikYazi.Name = "btnItalikYazi";
+            this.btnItalikYazi.Size = new System.Drawing.Size(23, 25);
+            this.btnItalikYazi.Text = "I";
+            this.btnItalikYazi.Click += new System.EventHandler(this.btnItalikYazi_Click);
             // 
-            // btnCizgiliMenuItem
+            // btnCizgiliYazi
             // 
-            this.btnCizgiliMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.btnCizgiliMenuItem.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnCizgiliMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("btnCizgiliMenuItem.Image")));
-            this.btnCizgiliMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.btnCizgiliMenuItem.Name = "btnCizgiliMenuItem";
-            this.btnCizgiliMenuItem.Size = new System.Drawing.Size(24, 25);
-            this.btnCizgiliMenuItem.Text = "A";
-            this.btnCizgiliMenuItem.Click += new System.EventHandler(this.btnCizgiliMenuItem_Click);
+            this.btnCizgiliYazi.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.btnCizgiliYazi.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnCizgiliYazi.Image = ((System.Drawing.Image)(resources.GetObject("btnCizgiliYazi.Image")));
+            this.btnCizgiliYazi.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnCizgiliYazi.Name = "btnCizgiliYazi";
+            this.btnCizgiliYazi.Size = new System.Drawing.Size(24, 25);
+            this.btnCizgiliYazi.Text = "A";
+            this.btnCizgiliYazi.Click += new System.EventHandler(this.btnCizgiliYazi_Click);
             // 
-            // btnKucultMenuItem
+            // trackBar1
             // 
-            this.btnKucultMenuItem.Name = "btnKucultMenuItem";
-            this.btnKucultMenuItem.Size = new System.Drawing.Size(23, 25);
-            // 
-            // btnBuyutMenuItem
-            // 
-            this.btnBuyutMenuItem.Name = "btnBuyutMenuItem";
-            this.btnBuyutMenuItem.Size = new System.Drawing.Size(23, 25);
+            this.trackBar1.Location = new System.Drawing.Point(153, 7);
+            this.trackBar1.Maximum = 50;
+            this.trackBar1.Minimum = 10;
+            this.trackBar1.Name = "trackBar1";
+            this.trackBar1.Size = new System.Drawing.Size(259, 45);
+            this.trackBar1.TabIndex = 3;
+            this.trackBar1.Value = 10;
+            this.trackBar1.Scroll += new System.EventHandler(this.trackBar1_Scroll);
             // 
             // tbEditor
             // 
             this.tbEditor.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tbEditor.Location = new System.Drawing.Point(0, 53);
+            this.tbEditor.Location = new System.Drawing.Point(0, 52);
             this.tbEditor.Name = "tbEditor";
-            this.tbEditor.Size = new System.Drawing.Size(826, 413);
-            this.tbEditor.TabIndex = 3;
+            this.tbEditor.Size = new System.Drawing.Size(825, 427);
+            this.tbEditor.TabIndex = 4;
             this.tbEditor.Text = "";
-            this.tbEditor.TextChanged += new System.EventHandler(this.tbEditor_TextChanged);
-            // 
-            // trackBar1
-            // 
-            this.trackBar1.BackColor = System.Drawing.Color.White;
-            this.trackBar1.Location = new System.Drawing.Point(114, 8);
-            this.trackBar1.Maximum = 100;
-            this.trackBar1.Minimum = 10;
-            this.trackBar1.Name = "trackBar1";
-            this.trackBar1.Size = new System.Drawing.Size(233, 45);
-            this.trackBar1.TabIndex = 4;
-            this.trackBar1.TickFrequency = 5;
-            this.trackBar1.Value = 10;
-            this.trackBar1.Scroll += new System.EventHandler(this.trackBar1_Scroll);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(826, 466);
-            this.Controls.Add(this.trackBar1);
+            this.ClientSize = new System.Drawing.Size(825, 479);
             this.Controls.Add(this.tbEditor);
+            this.Controls.Add(this.trackBar1);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.menuStrip1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -195,13 +175,11 @@ namespace Ders4_MenuListesi
         private System.Windows.Forms.ToolStripMenuItem btnAcMenuItem;
         private System.Windows.Forms.ToolStripMenuItem btnKaydetMenuItem;
         private System.Windows.Forms.ToolStrip toolStrip1;
-        private System.Windows.Forms.ToolStripButton btnKalinMenuItem;
-        private System.Windows.Forms.ToolStripButton btnItalikMenuItem;
-        private System.Windows.Forms.ToolStripButton btnCizgiliMenuItem;
-        private System.Windows.Forms.RichTextBox tbEditor;
-        private System.Windows.Forms.ToolStripButton btnKucultMenuItem;
-        private System.Windows.Forms.ToolStripButton btnBuyutMenuItem;
+        private System.Windows.Forms.ToolStripButton btnKalinYazi;
+        private System.Windows.Forms.ToolStripButton btnItalikYazi;
+        private System.Windows.Forms.ToolStripButton btnCizgiliYazi;
         private System.Windows.Forms.TrackBar trackBar1;
+        private System.Windows.Forms.RichTextBox tbEditor;
     }
 }
 

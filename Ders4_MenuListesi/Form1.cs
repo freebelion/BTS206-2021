@@ -16,10 +16,6 @@ namespace Ders4_MenuListesi
         {
             InitializeComponent();
         }
-        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
-        {
-
-        }
 
         private void btnDosyaMenuItem_Click(object sender, EventArgs e)
         {
@@ -36,27 +32,22 @@ namespace Ders4_MenuListesi
             tbEditor.SaveFile("dosya.rtf");
         }
 
-        private void btnKalinMenuItem_Click(object sender, EventArgs e)
+        private void btnKalinYazi_Click(object sender, EventArgs e)
         {
             Font seciliYaziTipi = tbEditor.SelectionFont;
             tbEditor.SelectionFont = new Font(seciliYaziTipi, FontStyle.Bold);
         }
 
-        private void btnItalikMenuItem_Click(object sender, EventArgs e)
+        private void btnItalikYazi_Click(object sender, EventArgs e)
         {
             Font seciliYaziTipi = tbEditor.SelectionFont;
             tbEditor.SelectionFont = new Font(seciliYaziTipi, FontStyle.Italic);
         }
 
-        private void btnCizgiliMenuItem_Click(object sender, EventArgs e)
+        private void btnCizgiliYazi_Click(object sender, EventArgs e)
         {
             Font seciliYaziTipi = tbEditor.SelectionFont;
             tbEditor.SelectionFont = new Font(seciliYaziTipi, FontStyle.Underline);
-        }
-
-        private void tbEditor_TextChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void trackBar1_Scroll(object sender, EventArgs e)

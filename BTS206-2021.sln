@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ders2_HesapMakinesi", "Ders
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ders3_ListeKutusu", "Ders3_ListeKutusu\Ders3_ListeKutusu.csproj", "{B4FBEEAC-0394-43E9-8DDC-46016CCBBF77}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ders4_MenuListesi", "Ders4_MenuListesi\Ders4_MenuListesi.csproj", "{3B5E9D7B-3658-41CB-9AEA-920BBC923E02}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{B4FBEEAC-0394-43E9-8DDC-46016CCBBF77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4FBEEAC-0394-43E9-8DDC-46016CCBBF77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4FBEEAC-0394-43E9-8DDC-46016CCBBF77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B5E9D7B-3658-41CB-9AEA-920BBC923E02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B5E9D7B-3658-41CB-9AEA-920BBC923E02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B5E9D7B-3658-41CB-9AEA-920BBC923E02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B5E9D7B-3658-41CB-9AEA-920BBC923E02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +45,7 @@ Global
 		{BCE1D662-322F-4EBB-AD86-7C5B0E808EED} = {B04B8775-B1EA-4C53-8F72-5EAEF667E7D4}
 		{A44A4DB0-D984-4E0B-A82D-2CA294FF4333} = {B04B8775-B1EA-4C53-8F72-5EAEF667E7D4}
 		{B4FBEEAC-0394-43E9-8DDC-46016CCBBF77} = {B04B8775-B1EA-4C53-8F72-5EAEF667E7D4}
+		{3B5E9D7B-3658-41CB-9AEA-920BBC923E02} = {B04B8775-B1EA-4C53-8F72-5EAEF667E7D4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EBEA5F54-6115-4315-9614-35C679F67B25}
