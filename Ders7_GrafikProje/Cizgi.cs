@@ -9,8 +9,12 @@ namespace Ders7_GrafikProje
 {
    class Cizgi
    {
-      private List<Point> noktalar = new List<Point>();
+      private List<Point> noktalar;
 
+      public Cizgi()
+      {
+         noktalar = new List<Point>();
+      }
       public int NoktaSayisi
       {
          get { return noktalar.Count; }
@@ -23,6 +27,11 @@ namespace Ders7_GrafikProje
       public Point this[int sirano]
       {
          get { return noktalar[sirano]; }
+      }
+
+      public Point Son(int sondansirano = 0)
+      {
+         return noktalar[NoktaSayisi -1 - sondansirano];
       }
    }
 }

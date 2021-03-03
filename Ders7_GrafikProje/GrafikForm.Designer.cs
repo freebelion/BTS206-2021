@@ -79,7 +79,10 @@ namespace Ders7_GrafikProje
          this.CizimPaneli.Name = "CizimPaneli";
          this.CizimPaneli.Size = new System.Drawing.Size(800, 380);
          this.CizimPaneli.TabIndex = 1;
+         this.CizimPaneli.Paint += new System.Windows.Forms.PaintEventHandler(this.CizimPaneli_Paint);
          this.CizimPaneli.MouseDown += new System.Windows.Forms.MouseEventHandler(this.CizimPaneli_MouseDown);
+         this.CizimPaneli.MouseMove += new System.Windows.Forms.MouseEventHandler(this.CizimPaneli_MouseMove);
+         this.CizimPaneli.MouseUp += new System.Windows.Forms.MouseEventHandler(this.CizimPaneli_MouseUp);
          // 
          // GrafikForm
          // 
