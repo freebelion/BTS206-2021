@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ders6_AgacPanel", "Ders6_Ag
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ders7_GrafikProje", "Ders7_GrafikProje\Ders7_GrafikProje.csproj", "{B3606B1B-9849-490D-AE0C-F10A1BC06546}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ders9_OyunProje1", "Ders9_OyunProje1\Ders9_OyunProje1.csproj", "{96F95FD8-0B99-452D-A6F1-6B934134F457}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,10 @@ Global
 		{B3606B1B-9849-490D-AE0C-F10A1BC06546}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3606B1B-9849-490D-AE0C-F10A1BC06546}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3606B1B-9849-490D-AE0C-F10A1BC06546}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96F95FD8-0B99-452D-A6F1-6B934134F457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96F95FD8-0B99-452D-A6F1-6B934134F457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96F95FD8-0B99-452D-A6F1-6B934134F457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96F95FD8-0B99-452D-A6F1-6B934134F457}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +73,7 @@ Global
 		{2E4DE008-5724-4D15-BA37-F4E9378C1801} = {B04B8775-B1EA-4C53-8F72-5EAEF667E7D4}
 		{6D76E705-DB85-4458-AA0E-001FB3B85918} = {B04B8775-B1EA-4C53-8F72-5EAEF667E7D4}
 		{B3606B1B-9849-490D-AE0C-F10A1BC06546} = {B04B8775-B1EA-4C53-8F72-5EAEF667E7D4}
+		{96F95FD8-0B99-452D-A6F1-6B934134F457} = {B04B8775-B1EA-4C53-8F72-5EAEF667E7D4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EBEA5F54-6115-4315-9614-35C679F67B25}
