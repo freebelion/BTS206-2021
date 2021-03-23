@@ -8,21 +8,60 @@
         Title="MainWindow" Height="450" Width="800"
         FontSize="24"
         Loaded="Window_Loaded">
-   <StackPanel>
+   <Grid x:Name="AnaKafes">
+      <Grid.RowDefinitions>
+         <RowDefinition Height="50" />
+         <RowDefinition Height="*" />
+      </Grid.RowDefinitions>
       <TextBlock x:Name="tbBakiye"
                  Background="Orange"
-                 HorizontalAlignment="Left"
-                 Margin="15">
-         
+                 Margin="5" >
+
       </TextBlock>
 
-      <Button Name="btn10TLYatir"
-              Content="10 TL yatır"
-              HorizontalAlignment="Left"
-              VerticalAlignment="Bottom"
-              Margin="15"
-              Width="150" Height="45"
-              Click="btn10TLYatir_Click"/>
+      <Grid x:Name="IcKafes" Grid.Row="1">
+         <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+         </Grid.RowDefinitions>
+         <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+         </Grid.ColumnDefinitions>
 
-   </StackPanel>
+
+         <Button Background="SteelBlue" Grid.Column="0"
+                 Content="10 TL ÇEK"
+                 Click="btnParaCek_Click"
+                 Tag="10"
+                 Margin="5"/>
+         <Button Background="LightGreen" Grid.Column="1"
+                 Content="10 TL YATIR"
+                 Tag="10"
+                 Click="btnParaYatir_Click"
+                 Margin="5"/>
+         <Button Background="SteelBlue" Grid.Column="0"
+            Content="20 TL ÇEK"
+            Click="btnParaCek_Click"
+            Tag="20"
+            Margin="5" Grid.Row="1"/>
+         <Button Background="SteelBlue" Grid.Column="0"
+            Content="50 TL ÇEK"
+                 Click="btnParaCek_Click"
+                 Tag="50"
+            Margin="5" Grid.Row="2"/>
+         <Button Background="LightGreen" Grid.Column="1"
+            Content="20 TL YATIR"
+                 Tag="20"
+                 Click="btnParaYatir_Click"
+            Margin="5" Grid.Row="1"/>
+         <Button Background="LightGreen" Grid.Column="1"
+            Content="50 TL YATIR"
+                 Click="btnParaYatir_Click"
+                 Tag="50"
+            Margin="5"  Grid.Row="2"/>
+      </Grid>
+
+   </Grid>
 </Window>

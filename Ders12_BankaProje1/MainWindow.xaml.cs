@@ -26,9 +26,27 @@ namespace Ders12_BankaProje1
          InitializeComponent();
       }
 
-      private void btn10TLYatir_Click(object sender, RoutedEventArgs e)
+      private void btnParaYatir_Click(object sender, RoutedEventArgs e)
       {
-         bakiye += 10;
+         Button btn = sender as Button;
+         decimal tutar;
+         if(btn != null)
+         {
+            tutar = Convert.ToDecimal(btn.Tag);
+            bakiye += tutar;
+         }
+         tbBakiye.Text = bakiye.ToString("C");
+      }
+
+      private void btnParaCek_Click(object sender, RoutedEventArgs e)
+      {
+         Button btn = sender as Button;
+         decimal tutar;
+         if (btn != null)
+         {
+            tutar = Convert.ToDecimal(btn.Tag);
+            if (bakiye >= tutar) { bakiye -= tutar; }
+         }
          tbBakiye.Text = bakiye.ToString("C");
       }
 
