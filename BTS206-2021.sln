@@ -25,7 +25,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ders9_OyunProje1", "Ders9_O
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ders10_OyunProje2", "Ders10_OyunProje2\Ders10_OyunProje2.csproj", "{9C5337ED-DD95-4A66-97B4-53E8675B6F3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ders12_BankaProje1", "Ders12_BankaProje1\Ders12_BankaProje1.csproj", "{6468FFA5-E248-4E68-AEE8-5B50AC03D8C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ders12_BankaProje1", "Ders12_BankaProje1\Ders12_BankaProje1.csproj", "{6468FFA5-E248-4E68-AEE8-5B50AC03D8C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ders14_ListeKutusu", "Ders14_ListeKutusu\Ders14_ListeKutusu.csproj", "{A17E5150-A927-4DDA-87A2-AA5871642CF8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +75,10 @@ Global
 		{6468FFA5-E248-4E68-AEE8-5B50AC03D8C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6468FFA5-E248-4E68-AEE8-5B50AC03D8C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6468FFA5-E248-4E68-AEE8-5B50AC03D8C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A17E5150-A927-4DDA-87A2-AA5871642CF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A17E5150-A927-4DDA-87A2-AA5871642CF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A17E5150-A927-4DDA-87A2-AA5871642CF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A17E5150-A927-4DDA-87A2-AA5871642CF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -88,6 +94,7 @@ Global
 		{96F95FD8-0B99-452D-A6F1-6B934134F457} = {B04B8775-B1EA-4C53-8F72-5EAEF667E7D4}
 		{9C5337ED-DD95-4A66-97B4-53E8675B6F3B} = {B04B8775-B1EA-4C53-8F72-5EAEF667E7D4}
 		{6468FFA5-E248-4E68-AEE8-5B50AC03D8C8} = {0F1FC8F2-3ED5-43FC-B9F4-D767766F0F6A}
+		{A17E5150-A927-4DDA-87A2-AA5871642CF8} = {0F1FC8F2-3ED5-43FC-B9F4-D767766F0F6A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EBEA5F54-6115-4315-9614-35C679F67B25}
