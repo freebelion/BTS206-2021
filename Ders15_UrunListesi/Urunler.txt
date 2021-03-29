@@ -1,0 +1,4 @@
+﻿Ekmek 1,25
+Kiraz 9,50
+Kek 2,50
+Akıl 165050
