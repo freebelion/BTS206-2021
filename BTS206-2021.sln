@@ -31,6 +31,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ders14_ListeKutusu", "Ders1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ders15_UrunListesi", "Ders15_UrunListesi\Ders15_UrunListesi.csproj", "{4911689C-8B53-4046-9AA7-D711943F3D61}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ders16_Paneller", "Ders16_Paneller\Ders16_Paneller.csproj", "{1F8848C9-E1B0-462B-A6EB-34E75ADA461D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,6 +87,10 @@ Global
 		{4911689C-8B53-4046-9AA7-D711943F3D61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4911689C-8B53-4046-9AA7-D711943F3D61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4911689C-8B53-4046-9AA7-D711943F3D61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F8848C9-E1B0-462B-A6EB-34E75ADA461D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F8848C9-E1B0-462B-A6EB-34E75ADA461D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F8848C9-E1B0-462B-A6EB-34E75ADA461D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F8848C9-E1B0-462B-A6EB-34E75ADA461D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -102,6 +108,7 @@ Global
 		{6468FFA5-E248-4E68-AEE8-5B50AC03D8C8} = {0F1FC8F2-3ED5-43FC-B9F4-D767766F0F6A}
 		{A17E5150-A927-4DDA-87A2-AA5871642CF8} = {0F1FC8F2-3ED5-43FC-B9F4-D767766F0F6A}
 		{4911689C-8B53-4046-9AA7-D711943F3D61} = {0F1FC8F2-3ED5-43FC-B9F4-D767766F0F6A}
+		{1F8848C9-E1B0-462B-A6EB-34E75ADA461D} = {0F1FC8F2-3ED5-43FC-B9F4-D767766F0F6A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EBEA5F54-6115-4315-9614-35C679F67B25}
