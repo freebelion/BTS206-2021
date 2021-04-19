@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ders17_Proje", "Ders17_Proj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ders18_Stiller", "Ders18_Stiller\Ders18_Stiller.csproj", "{A08E92A0-3AA6-4978-9AE7-9CBB25447D4B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ders19_BankaProje2", "Ders19_BankaProje2\Ders19_BankaProje2.csproj", "{67CB0429-5D68-4BE0-8DDA-19ABC5107C55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -103,6 +105,10 @@ Global
 		{A08E92A0-3AA6-4978-9AE7-9CBB25447D4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A08E92A0-3AA6-4978-9AE7-9CBB25447D4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A08E92A0-3AA6-4978-9AE7-9CBB25447D4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67CB0429-5D68-4BE0-8DDA-19ABC5107C55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67CB0429-5D68-4BE0-8DDA-19ABC5107C55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67CB0429-5D68-4BE0-8DDA-19ABC5107C55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67CB0429-5D68-4BE0-8DDA-19ABC5107C55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -123,6 +129,7 @@ Global
 		{1F8848C9-E1B0-462B-A6EB-34E75ADA461D} = {0F1FC8F2-3ED5-43FC-B9F4-D767766F0F6A}
 		{998AA26A-D637-4B33-B1DA-C3BA52755E25} = {0F1FC8F2-3ED5-43FC-B9F4-D767766F0F6A}
 		{A08E92A0-3AA6-4978-9AE7-9CBB25447D4B} = {0F1FC8F2-3ED5-43FC-B9F4-D767766F0F6A}
+		{67CB0429-5D68-4BE0-8DDA-19ABC5107C55} = {0F1FC8F2-3ED5-43FC-B9F4-D767766F0F6A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EBEA5F54-6115-4315-9614-35C679F67B25}
