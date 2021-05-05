@@ -1,0 +1,27 @@
+﻿<UserControl x:Class="Ders20_MemoryGame.ResimliDugme"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Ders20_MemoryGame"
+             mc:Ignorable="d" 
+             d:DesignHeight="150" d:DesignWidth="280">
+    <Border BorderBrush="DarkBlue" BorderThickness="4" CornerRadius="10">
+        <Button>
+            <Image x:Name="ResimKutusu" Opacity="0" Source="{Binding}"/>
+
+            <Button.Triggers>
+                <EventTrigger RoutedEvent="Button.Click">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation
+                                Storyboard.TargetName="ResimKutusu"
+                                Storyboard.TargetProperty="(Image.Opacity)"
+                                From="0" To="1" Duration="0:0:0.25" AutoReverse="True"/>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </Button.Triggers>
+        </Button>
+    </Border>
+</UserControl>
